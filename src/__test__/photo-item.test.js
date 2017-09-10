@@ -33,39 +33,4 @@ describe('PhotoItem', ()=> {
     wrapper.find('.fa-pencil').simulate('click')
     expect(wrapper.state('editing')).toEqual(true)
   })
-
-
-    //mockAPI.del('http://localhost:7777/photos/:id', () => {
-      //return {
-        //status: 204,
-      //}
-    //})
-
-    //let mockStore = appStoreCreate()
-
-    //mockStore.dispatch(photoActions.userPhotoCreate(mockPhoto))
-    //let wrapper = mount(<ConnectedPhotoItem photo={mockPhoto} store={mockStore} />)
-    //wrapper.find('.fa-trash-o').simulate('click')
-    //mockStore.subscribe(() => {
-      //console.log('store.getState', mockStore.getState())
-      //done()
-    //})
-    ////let {userPhotos} = mockStore.getState()
-    ////expect(userPhotos).toEqual([])
-  //})
-
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
